@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS FX95G\source\repos\core\build\_deps\googletest-subbuild\CMakeFiles\b2c8db88c643080788f268d92bbdf58e\googletest-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS FX95G\source\repos\core\build\_deps\googletest-subbuild\CMakeFiles\b2c8db88c643080788f268d92bbdf58e\googletest-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS FX95G\source\repos\core\build\_deps\googletest-subbuild\CMakeFiles\b2c8db88c643080788f268d92bbdf58e\googletest-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS FX95G\source\repos\core\build\_deps\googletest-subbuild\CMakeFiles\b2c8db88c643080788f268d92bbdf58e\googletest-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS FX95G\source\repos\core\build\_deps\googletest-subbuild\CMakeFiles\b2c8db88c643080788f268d92bbdf58e\googletest-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS FX95G\source\repos\core\build\_deps\googletest-subbuild\CMakeFiles\b2c8db88c643080788f268d92bbdf58e\googletest-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS FX95G\source\repos\core\build\_deps\googletest-subbuild\CMakeFiles\b2c8db88c643080788f268d92bbdf58e\googletest-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS FX95G\source\repos\core\build\_deps\googletest-subbuild\CMakeFiles\b2c8db88c643080788f268d92bbdf58e\googletest-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS FX95G\source\repos\core\build\_deps\googletest-subbuild\CMakeFiles\9d796a2108b340a84a57683c5c60ba47\googletest-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS FX95G\source\repos\core\build\_deps\googletest-subbuild\CMakeFiles\12443a9f868fcea77d5d6294586ad469\googletest-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\Users\ASUS FX95G\source\repos\core\build\_deps\googletest-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\Users\ASUS FX95G\source\repos\core\build\_deps\googletest-subbuild\CMakeFiles\googletest-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{182BE5F0-48C9-3E54-BDFA-7C715C86CF54}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

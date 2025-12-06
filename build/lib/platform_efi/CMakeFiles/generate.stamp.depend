@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Strawberry/c/share/cmake-3.29/Modules/CMakeCInformation.cmake
+C:/Strawberry/c/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake
+C:/Strawberry/c/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake
+C:/Strawberry/c/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Strawberry/c/share/cmake-3.29/Modules/Compiler/MSVC-C.cmake
+C:/Strawberry/c/share/cmake-3.29/Modules/Compiler/MSVC.cmake
+C:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-MSVC-C.cmake
+C:/Strawberry/c/share/cmake-3.29/Modules/Platform/Windows-MSVC.cmake
+C:/Users/ASUS FX95G/source/repos/core/build/CMakeFiles/3.29.2/CMakeCCompiler.cmake
+C:/Users/ASUS FX95G/source/repos/core/lib/platform_efi/CMakeLists.txt

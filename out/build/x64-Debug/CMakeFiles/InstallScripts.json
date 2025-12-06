@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/cmake_install.cmake",
+		"C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/lib/platform_common/cmake_install.cmake",
+		"C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/lib/platform_efi/cmake_install.cmake",
+		"C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/lib/platform_os/cmake_install.cmake",
+		"C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/test/cmake_install.cmake",
+		"C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-build/cmake_install.cmake",
+		"C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-build/googlemock/cmake_install.cmake",
+		"C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-build/googletest/cmake_install.cmake",
+		"C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

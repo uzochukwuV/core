@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+C:/Strawberry/c/share/cmake-3.29/Modules/CheckCSourceCompiles.cmake
+C:/Strawberry/c/share/cmake-3.29/Modules/CheckIncludeFile.cmake
+C:/Strawberry/c/share/cmake-3.29/Modules/CheckLibraryExists.cmake
+C:/Strawberry/c/share/cmake-3.29/Modules/FindPackageHandleStandardArgs.cmake
+C:/Strawberry/c/share/cmake-3.29/Modules/FindPackageMessage.cmake
+C:/Strawberry/c/share/cmake-3.29/Modules/FindThreads.cmake
+C:/Users/ASUS FX95G/source/repos/core/build/_deps/googletest-src/googlemock/CMakeLists.txt
+C:/Users/ASUS FX95G/source/repos/core/build/_deps/googletest-src/googlemock/cmake/gmock.pc.in
+C:/Users/ASUS FX95G/source/repos/core/build/_deps/googletest-src/googlemock/cmake/gmock_main.pc.in

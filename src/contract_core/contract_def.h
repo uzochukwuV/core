@@ -191,6 +191,36 @@
 #define CONTRACT_STATE2_TYPE QIP2
 #include "contracts/QIP.h"
 
+#undef CONTRACT_INDEX
+#undef CONTRACT_STATE_TYPE
+#undef CONTRACT_STATE2_TYPE
+
+#define MYTEST_CONTRACT_INDEX 19 // previous contract number + 1
+#define CONTRACT_INDEX MYTEST_CONTRACT_INDEX
+#define CONTRACT_STATE_TYPE MYTEST
+#define CONTRACT_STATE2_TYPE MYTEST2
+#include "contracts/MyTest.h"
+
+#undef CONTRACT_INDEX
+#undef CONTRACT_STATE_TYPE
+#undef CONTRACT_STATE2_TYPE
+
+#define PRICEFEED_CONTRACT_INDEX 20 // Price feed oracle contract
+#define CONTRACT_INDEX PRICEFEED_CONTRACT_INDEX
+#define CONTRACT_STATE_TYPE PRICEFEED
+#define CONTRACT_STATE2_TYPE PRICEFEED2
+#include "contracts/PriceFeed.h"
+
+#undef CONTRACT_INDEX
+#undef CONTRACT_STATE_TYPE
+#undef CONTRACT_STATE2_TYPE
+
+#define PERPETUALS_CONTRACT_INDEX 21 // Perpetual futures contract
+#define CONTRACT_INDEX PERPETUALS_CONTRACT_INDEX
+#define CONTRACT_STATE_TYPE PERPETUALS
+#define CONTRACT_STATE2_TYPE PERPETUALS2
+#include "contracts/Perpetuals.h"
+
 // new contracts should be added above this line
 
 #ifdef INCLUDE_CONTRACT_TEST_EXAMPLES
@@ -294,6 +324,10 @@ constexpr struct ContractDescription
     {"RL", 182, 10000, sizeof(RL)}, // proposal in epoch 180, IPO in 181, construction and first use in 182
     {"QBOND", 182, 10000, sizeof(QBOND)}, // proposal in epoch 180, IPO in 181, construction and first use in 182
     {"QIP", 189, 10000, sizeof(QIP)}, // proposal in epoch 187, IPO in 188, construction and first use in 189
+     {"MYTEST", 999, 10000, sizeof(MYTEST)}, // {"ASSET_NAME", CONSTRUCTION_EPOCH, DESTRUCTION_EPOCH, SIZE_OF_STATE}
+     {"PFEED", 999, 10000, sizeof(PRICEFEED)}, // Price feed oracle contract
+    {"PERPS", 999, 10000, sizeof(PERPETUALS)}, // Perpetual futures contract
+     // new contracts should be added above this line
     // new contracts should be added above this line
 #ifdef INCLUDE_CONTRACT_TEST_EXAMPLES
     {"TESTEXA", 138, 10000, sizeof(TESTEXA)},
@@ -407,6 +441,9 @@ static void initializeContracts()
     REGISTER_CONTRACT_FUNCTIONS_AND_PROCEDURES(RL);
     REGISTER_CONTRACT_FUNCTIONS_AND_PROCEDURES(QBOND);
     REGISTER_CONTRACT_FUNCTIONS_AND_PROCEDURES(QIP);
+    REGISTER_CONTRACT_FUNCTIONS_AND_PROCEDURES(MYTEST);
+    REGISTER_CONTRACT_FUNCTIONS_AND_PROCEDURES(PRICEFEED);
+    REGISTER_CONTRACT_FUNCTIONS_AND_PROCEDURES(PERPETUALS);
     // new contracts should be added above this line
 #ifdef INCLUDE_CONTRACT_TEST_EXAMPLES
     REGISTER_CONTRACT_FUNCTIONS_AND_PROCEDURES(TESTEXA);

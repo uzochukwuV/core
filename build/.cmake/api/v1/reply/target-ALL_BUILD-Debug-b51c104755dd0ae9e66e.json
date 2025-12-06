@@ -1,0 +1,63 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "platform_common_asm::@99275fe47ebefd80f48f"
+		},
+		{
+			"id" : "platform_common::@99275fe47ebefd80f48f"
+		},
+		{
+			"id" : "platform_efi::@dcfe0a23dcd09f07db23"
+		},
+		{
+			"id" : "platform_os::@bd5d090f4934aa212031"
+		},
+		{
+			"id" : "qubic_core_tests::@36f028580bb02cc8272a"
+		},
+		{
+			"id" : "gmock::@0f7bb11d64f3678238c7"
+		},
+		{
+			"id" : "gtest::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"id" : "gmock_main::@0f7bb11d64f3678238c7"
+		},
+		{
+			"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f"
+		},
+		{
+			"id" : "Qubic::@145eef247bfb46b6828c"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

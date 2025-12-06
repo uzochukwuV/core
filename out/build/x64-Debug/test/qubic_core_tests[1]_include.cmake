@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/test/qubic_core_tests[1]_tests.cmake")
+  include("C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/test/qubic_core_tests[1]_tests.cmake")
+else()
+  add_test(qubic_core_tests_NOT_BUILT qubic_core_tests_NOT_BUILT)
+endif()

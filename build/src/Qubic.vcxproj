@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x86</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F83CDB2D-EBD6-3523-86EC-7AAE3B03E6CA}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.26100.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>Qubic</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS FX95G\source\repos\core\build\src\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Qubic.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Qubic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.efi</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS FX95G\source\repos\core\build\src\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Qubic.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Qubic</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.efi</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</GenerateManifest>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS FX95G\source\repos\core\src;C:\Users\ASUS FX95G\source\repos\core\lib;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common\edk2_mdepkg\Include;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common;C:\Users\ASUS FX95G\source\repos\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /EHs-c- /guard:cf- /Gs1638400</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions512</EnableEnhancedInstructionSet>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <OmitDefaultLibName>true</OmitDefaultLibName>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_CONSOLE;_LIB;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";Qubic_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_CONSOLE;_LIB;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";Qubic_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS FX95G\source\repos\core\src;C:\Users\ASUS FX95G\source\repos\core\lib;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common\edk2_mdepkg\Include;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common;C:\Users\ASUS FX95G\source\repos\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_CONSOLE;_LIB;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";Qubic_EXPORTS</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\ASUS FX95G\source\repos\core\src;C:\Users\ASUS FX95G\source\repos\core\lib;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common\edk2_mdepkg\Include;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common;C:\Users\ASUS FX95G\source\repos\core;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /W4 /GF /arch:AVX512 /permissive- /Zc:wchar_t- /EHs-c- /GS- /Gy- /Oi /O2 /Ot /Ob2 /Oy /GT /fp:except- /guard:cf- /Gs1638400 /Zl</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <WarningLevel>3</WarningLevel>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS FX95G\source\repos\core\src;C:\Users\ASUS FX95G\source\repos\core\lib;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common\edk2_mdepkg\Include;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common;C:\Users\ASUS FX95G\source\repos\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\platform_common\Debug\platform_common.lib;..\lib\platform_efi\Debug\platform_efi.lib;..\lib\platform_common\Debug\platform_common_asm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <EntryPointSymbol>efi_main</EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ASUS FX95G/source/repos/core/build/src/Debug/Qubic.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/ASUS FX95G/source/repos/core/build/src/Debug/Qubic.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <StackReserveSize>131072</StackReserveSize>
+      <SubSystem>EFI Application</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\ASUS FX95G\source\repos\core\src;C:\Users\ASUS FX95G\source\repos\core\lib;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common\edk2_mdepkg\Include;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common;C:\Users\ASUS FX95G\source\repos\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /GL- /Gw /EHs-c- /guard:cf- /Gs1638400</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <ConformanceMode>true</ConformanceMode>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions512</EnableEnhancedInstructionSet>
+      <EnableFiberSafeOptimizations>true</EnableFiberSafeOptimizations>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <FloatingPointExceptions>false</FloatingPointExceptions>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <OmitDefaultLibName>true</OmitDefaultLibName>
+      <OmitFramePointers>true</OmitFramePointers>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <StringPooling>true</StringPooling>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_CONSOLE;NDEBUG;_LIB;UNICODE;_UNICODE;CMAKE_INTDIR="Release";Qubic_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_CONSOLE;NDEBUG;_LIB;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";Qubic_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\ASUS FX95G\source\repos\core\src;C:\Users\ASUS FX95G\source\repos\core\lib;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common\edk2_mdepkg\Include;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common;C:\Users\ASUS FX95G\source\repos\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <MASM>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);_CONSOLE;NDEBUG;_LIB;UNICODE;_UNICODE;CMAKE_INTDIR="Release";Qubic_EXPORTS;</PreprocessorDefinitions>
+      <IncludePaths>C:\Users\ASUS FX95G\source\repos\core\src;C:\Users\ASUS FX95G\source\repos\core\lib;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common\edk2_mdepkg\Include;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common;C:\Users\ASUS FX95G\source\repos\core;%(IncludePaths)</IncludePaths>
+      <AdditionalOptions>%(AdditionalOptions) /W4 /GF /GL- /Gw /Oi /Ob2 /O2 /Oy /arch:AVX512 /permissive- /Zc:wchar_t- /EHs-c- /GS- /Gy- /Ot /GT /fp:except- /guard:cf- /Gs1638400 /Zl</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <WarningLevel>3</WarningLevel>
+    </MASM>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\ASUS FX95G\source\repos\core\src;C:\Users\ASUS FX95G\source\repos\core\lib;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common\edk2_mdepkg\Include;C:\Users\ASUS FX95G\source\repos\core\lib\platform_common;C:\Users\ASUS FX95G\source\repos\core;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>..\lib\platform_common\Release\platform_common.lib;..\lib\platform_efi\Release\platform_efi.lib;..\lib\platform_common\Release\platform_common_asm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <DataExecutionPrevention>false</DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <EntryPointSymbol>efi_main</EntryPointSymbol>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreAllDefaultLibraries>true</IgnoreAllDefaultLibraries>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/ASUS FX95G/source/repos/core/build/src/Release/Qubic.lib</ImportLibrary>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ProgramDataBaseFile>C:/Users/ASUS FX95G/source/repos/core/build/src/Release/Qubic.pdb</ProgramDataBaseFile>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <StackReserveSize>131072</StackReserveSize>
+      <SubSystem>EFI Application</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\ASUS FX95G\source\repos\core\src\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/ASUS FX95G/source/repos/core/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Strawberry\c\bin\cmake.exe "-SC:/Users/ASUS FX95G/source/repos/core" "-BC:/Users/ASUS FX95G/source/repos/core/build" --check-stamp-file "C:/Users/ASUS FX95G/source/repos/core/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Strawberry\c\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Strawberry\c\share\cmake-3.29\Modules\CMakeASM_MASMInformation.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\ASUS FX95G\source\repos\core\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/ASUS FX95G/source/repos/core/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Strawberry\c\bin\cmake.exe "-SC:/Users/ASUS FX95G/source/repos/core" "-BC:/Users/ASUS FX95G/source/repos/core/build" --check-stamp-file "C:/Users/ASUS FX95G/source/repos/core/build/src/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Strawberry\c\share\cmake-3.29\Modules\CMakeASMInformation.cmake;C:\Strawberry\c\share\cmake-3.29\Modules\CMakeASM_MASMInformation.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\ASUS FX95G\source\repos\core\build\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\ASUS FX95G\source\repos\core\src\qubic.cpp" />
+    <MASM Include="C:\Users\ASUS FX95G\source\repos\core\src\platform\custom_stack.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\ASUS FX95G\source\repos\core\build\ZERO_CHECK.vcxproj">
+      <Project>{037BD213-C8DE-3C90-A026-04BE632ADD4B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS FX95G\source\repos\core\build\lib\platform_common\platform_common.vcxproj">
+      <Project>{636A3098-2158-36DC-8669-35F345F966A3}</Project>
+      <Name>platform_common</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS FX95G\source\repos\core\build\lib\platform_common\platform_common_asm.vcxproj">
+      <Project>{D3CEA670-515B-3030-9442-A4BDC2B1DA11}</Project>
+      <Name>platform_common_asm</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\ASUS FX95G\source\repos\core\build\lib\platform_efi\platform_efi.vcxproj">
+      <Project>{EE092AB2-F6EE-3AEB-8998-CC26497C2AC8}</Project>
+      <Name>platform_efi</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

@@ -1,0 +1,21 @@
+# ninja log v6
+4	58	7867424631283211	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	beec530be24d5bd7
+4	58	7867424631283211	C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-mkdir	beec530be24d5bd7
+59	11885	7867424749548470	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	b4206929a8f38da9
+59	11885	7867424749548470	C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-download	b4206929a8f38da9
+11885	12020	7867424749608083	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	60b07b680855c556
+11885	12020	7867424749608083	C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-update	60b07b680855c556
+12020	12074	7867424751435158	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	d5650c31c82046fb
+12020	12074	7867424751435158	C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-patch	d5650c31c82046fb
+12075	12131	7867424752000250	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	66ddaf051bd7f30d
+12075	12131	7867424752000250	C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-configure	66ddaf051bd7f30d
+12131	12191	7867424752595459	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	8f59f16cdfb5460
+12131	12191	7867424752595459	C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-build	8f59f16cdfb5460
+12191	12246	7867424753155416	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	8df2bb535a704ba2
+12191	12246	7867424753155416	C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-install	8df2bb535a704ba2
+12246	12301	7867424753710583	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	89f3ee7a63240da0
+12246	12301	7867424753710583	C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-test	89f3ee7a63240da0
+12301	12373	7867424754430612	CMakeFiles/googletest-populate-complete	bd50e47f31476fdb
+12301	12373	7867424754430612	googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	bd50e47f31476fdb
+12301	12373	7867424754430612	C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate-complete	bd50e47f31476fdb
+12301	12373	7867424754430612	C:/Users/ASUS FX95G/source/repos/core/out/build/x64-Debug/_deps/googletest-subbuild/googletest-populate-prefix/src/googletest-populate-stamp/googletest-populate-done	bd50e47f31476fdb
