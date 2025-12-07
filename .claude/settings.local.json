@@ -1,7 +1,9 @@
 {
   "permissions": {
     "allow": [
-      "Bash(\"/c/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/MSBuild.exe\" Qubic.sln -t:restore)"
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/MSBuild.exe\" Qubic.sln -t:restore)",
+      "Bash(\"/c/Program Files/Microsoft Visual Studio/18/Community/MSBuild/Current/Bin/MSBuild.exe\" \"c:\\Users\\ASUS FX95G\\source\\repos\\core\\test\\test.vcxproj\" -p:Configuration=Debug -p:Platform=x64)",
+      "Bash(timeout 120:*)"
     ],
     "deny": [],
     "ask": []

@@ -325,8 +325,8 @@ constexpr struct ContractDescription
     {"QBOND", 182, 10000, sizeof(QBOND)}, // proposal in epoch 180, IPO in 181, construction and first use in 182
     {"QIP", 189, 10000, sizeof(QIP)}, // proposal in epoch 187, IPO in 188, construction and first use in 189
      {"MYTEST", 999, 10000, sizeof(MYTEST)}, // {"ASSET_NAME", CONSTRUCTION_EPOCH, DESTRUCTION_EPOCH, SIZE_OF_STATE}
-     {"PFEED", 999, 10000, sizeof(PRICEFEED)}, // Price feed oracle contract
-    {"PERPS", 999, 10000, sizeof(PERPETUALS)}, // Perpetual futures contract
+     {"PFEED", 999, 10000, sizeof(PRICEFEED) > sizeof(IPO) ? sizeof(PRICEFEED) : sizeof(IPO)}, // Price feed oracle contract
+    {"PERPS", 999, 10000, sizeof(PERPETUALS) > sizeof(IPO) ? sizeof(PERPETUALS) : sizeof(IPO)}, // Perpetual futures contract
      // new contracts should be added above this line
     // new contracts should be added above this line
 #ifdef INCLUDE_CONTRACT_TEST_EXAMPLES
